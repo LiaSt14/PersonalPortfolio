@@ -256,3 +256,10 @@ section{
     transform: scale(1.2)translateY(-5px);
     box-shadow: 0 0 25px var(--main-color);
 }
+.contact{
+    background-color: var(--second-bg-color);
+    padding: 50px 0 100px;
+}
+.contact .section-content{
+    
+}
