@@ -258,8 +258,62 @@ section{
 }
 .contact{
     background-color: var(--second-bg-color);
-    padding: 50px 0 100px;
+    padding: 110px;
+}
+.contact h2{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+    margin-bottom: 1.5rem;
 }
 .contact .section-content{
-    
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.contact .contact-info-list .contact-info{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    align-items: center;
+}
+.contact .contact-info-list .contact-info i{
+    font-size: 1.12rem;
+}
+.contact .contact-form .form-input{
+    width: 100%;
+    height: 50px;
+    background: white;
+    border-radius: 20px;
+    border: 1px soid var(--main-color);
+}
+.contact .contact-form{
+    max-width: 50%;
+}
+.contact .contact-form .form-input:focus{
+    border-color: var(--main-color);
+}
+.contact .contact-form textarea.form-input{
+    height: 100%;
+    padding: 12px;
+    resize: vertical;
+}
+.contact .contact-form .submit-button{
+    padding: 10px 26px;
+    color: var(--main-color);
+    font-size: 1.12rem;
+    font-weight: 500;
+    background: var(--main-color);
+    border-radius: 20px;
+    border: 1px solid var(--main-color);
+    transition: 0.3 ease;
+}
+.contact .contact-form .submit-button:hover{
+    color: var(--main-color)
+}
+.contact .section-content{
+    align-items: center;
 }
