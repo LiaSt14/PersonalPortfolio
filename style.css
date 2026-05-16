@@ -219,7 +219,7 @@ section{
     box-shadow: 0 0 5px var(--main-color);
     transition: 0.3s ease;
     max-width: 400px;
-    max-height: 450px;
+    max-height: 500px;
 }
 .project-card:hover{
     box-shadow: 0 0 25px var(--main-color),
